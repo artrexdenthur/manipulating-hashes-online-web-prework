@@ -14,7 +14,8 @@ def first_challenge
   }
 
   #your code here
-
+  contacts['Freddy mercury'].map do |attribute, value|
+    
 
   #remember to return your newly altered contacts hash!
   contacts
