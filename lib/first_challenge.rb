@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  contacts..map do |attribute, value|
+  contacts.fetch('Freddy Mercury').map do |attribute, value|
     if attribute == :favorite_icecream_flavors
       value.delete_if { |x| x == 'strawberry' }
     end
